@@ -1,6 +1,7 @@
 ﻿namespace SampleTodo.Repository
 {
-    using System;
+    using System.Linq;
+    using NHibernate.Linq;
     using System.Collections.Generic;
     using SampleTodo.Domain;
 
@@ -15,28 +16,34 @@
         /// <param name="todo">The <see cref="Todo" />.</param>
         public void Attach(Todo todo)
         {
-            throw new NotImplementedException();
-        }
-
-        /// <summary>
-        /// Detaches the specified <see cref="Todo" />.
-        /// </summary>
-        /// <param name="todo">The <see cref="Todo" />.</param>
-        public void Detach(Todo todo)
-        {
-            throw new NotImplementedException();
+            using (var session = SessionSource.GetSession())
+            {
+                using(var t = session.BeginTransaction())
+                {
+                    session.SaveOrUpdate(todo);
+                    t.Commit();
+                }
+            }
         }
 
         /// <summary>
         /// All <see cref="Todo" /> instances in the system.
         /// </summary>
-        /// <param name="done">Filter the results by their done status</param>
         /// <returns>
         /// An <see cref="IList{T}" /> of <see cref="Todo" /> objects
         /// </returns>
-        public IList<Todo> All(bool? done = null)
+        public IList<Todo> All()
         {
-            throw new NotImplementedException();
+            IList<Todo> results;
+            using (var session = SessionSource.GetSession())
+            {
+                using (var t = session.BeginTransaction())
+                {
+                    results = session.Query<Todo>().OrderBy(todo => todo.Task).ToList();
+                    t.Commit();
+                }
+            }
+            return results;
         }
     }
 }
