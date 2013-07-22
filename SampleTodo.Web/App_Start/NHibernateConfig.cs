@@ -4,6 +4,7 @@ namespace SampleTodo.Web.App_Start
 {
     using System.Data;
     using FluentNHibernate.Cfg;
+    using FluentNHibernate.Cfg.Db;
     using NHibernate.Cfg;
     using NHibernate.Context;
     using NHibernate.Dialect;
@@ -40,12 +41,14 @@ namespace SampleTodo.Web.App_Start
             });
 
             configuration.CurrentSessionContext<WebSessionContext>();
-
-            var factory = Fluently.Configure(configuration).Mappings(m => m.FluentMappings.AddFromAssembly(typeof(TodoMap).Assembly)).BuildSessionFactory();
+            var factory = Fluently.Configure(configuration)
+                .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(TodoMap).Assembly))
+                .ExposeConfiguration(cfg => new SchemaExport(cfg).Execute(false, true, false))
+                .BuildSessionFactory();
+            
             SessionSource.SetFactory(factory);
 
-            var se = new SchemaExport(configuration);
-            se.Create(true, true);
+            
         }
     }
 }
