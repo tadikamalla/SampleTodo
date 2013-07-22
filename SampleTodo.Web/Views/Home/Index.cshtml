@@ -2,4 +2,23 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<div class="row-fluid">
+    <div class="span6 offset3">
+        <h2>Sample ToDo</h2>
+
+        <form class="form-inline">
+            <fieldset>
+                <legend>Create/Edit ToDos</legend>
+                <input type="text" placeholder="To-do Item"/>
+                <button class="btn btn-primary">Save</button>
+                <button class="btn">Cancel</button>
+            </fieldset>
+        </form>
+
+        <h3>Items</h3>
+        <hr/>
+        <ul class="unstyled">
+            <li class="done-"><label class="checkbox"><input type="checkbox" /> Some check item <a href="" class="btn btn-mini"><i class="icon icon-edit"></i></a></label></li>
+        </ul>
+    </div>
+</div>

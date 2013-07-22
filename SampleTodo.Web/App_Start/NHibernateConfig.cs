@@ -2,6 +2,7 @@
 
 namespace SampleTodo.Web.App_Start
 {
+    using System;
     using System.Data;
     using FluentNHibernate.Cfg;
     using FluentNHibernate.Cfg.Db;
@@ -43,7 +44,16 @@ namespace SampleTodo.Web.App_Start
             configuration.CurrentSessionContext<WebSessionContext>();
             var factory = Fluently.Configure(configuration)
                 .Mappings(m => m.FluentMappings.AddFromAssembly(typeof(TodoMap).Assembly))
-                .ExposeConfiguration(cfg => new SchemaExport(cfg).Execute(false, true, false))
+                .ExposeConfiguration(cfg =>
+                {
+                    try
+                    {
+                        new SchemaExport(cfg).Execute(false, true, false);
+                    }
+// ReSharper disable EmptyGeneralCatchClause
+                    catch(Exception) { /* do nothing */}
+// ReSharper restore EmptyGeneralCatchClause
+                })
                 .BuildSessionFactory();
             
             SessionSource.SetFactory(factory);
