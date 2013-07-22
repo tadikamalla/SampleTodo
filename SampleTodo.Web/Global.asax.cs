@@ -1,17 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Http;
-using System.Web.Mvc;
-using System.Web.Routing;
-
-namespace SampleTodo.Web
+﻿namespace SampleTodo.Web
 {
-    // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
-    // visit http://go.microsoft.com/?LinkId=9394801
+    using System.Web.Http;
+    using System.Web.Mvc;
+    using System.Web.Routing;
+    using SampleTodo.Web.App_Start;
+
+    /// <summary>
+    /// The MVC Application
+    /// </summary>
     public class MvcApplication : System.Web.HttpApplication
     {
+        /// <summary>
+        /// The application start method
+        /// </summary>
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();

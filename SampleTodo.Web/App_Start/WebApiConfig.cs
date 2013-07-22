@@ -1,8 +1,5 @@
-﻿namespace SampleTodo.Web
+﻿namespace SampleTodo.Web.App_Start
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using System.Web.Http;
 
     /// <summary>
