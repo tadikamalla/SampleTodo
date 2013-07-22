@@ -150,6 +150,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resolvers\NinjectResolver.cs" />
+    <Compile Include="Resolvers\NinjectScope.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -186,7 +188,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Binders\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

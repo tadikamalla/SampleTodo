@@ -6,11 +6,12 @@ namespace SampleTodo.Web.App_Start
     using System;
     using System.Diagnostics.CodeAnalysis;
     using System.Web;
+    using System.Web.Http;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
-
     using SampleTodo.Repository;
+    using SampleTodo.Web.Resolvers;
 
     /// <summary>
     /// The dependency injection bootstrap component
@@ -52,6 +53,9 @@ namespace SampleTodo.Web.App_Start
             kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
             
             RegisterServices(kernel);
+
+            GlobalConfiguration.Configuration.DependencyResolver = new NinjectResolver(kernel);
+
             return kernel;
         }
 
