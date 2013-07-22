@@ -3,22 +3,25 @@
 }
 
 <div class="row-fluid">
-    <div class="span6 offset3">
+    <div class="span6 offset3" ng-controller="app.controllers.ToDoController">
         <h2>Sample ToDo</h2>
+        <ul class="unstyled" ng-repeat="item in todos" ng-cloak>
+            <li class="done-{{item.IsComplete}}"><label class="checkbox" ng-click="markDone($index)"><input type="checkbox" ng-model="item.IsComplete" /> {{item.Task}}</label></li>
+        </ul>
 
-        <form class="form-inline">
+        <form class="form-inline" ng-submit="createTask()">
             <fieldset>
-                <legend>Create/Edit ToDos</legend>
-                <input type="text" placeholder="To-do Item"/>
-                <button class="btn btn-primary">Save</button>
-                <button class="btn">Cancel</button>
+                <legend>Create ToDo</legend>
+                <input type="text" placeholder="Enter task" ng-model="Task"/>
+                <button class="btn btn-primary" type="submit">Save</button>
             </fieldset>
         </form>
-
-        <h3>Items</h3>
-        <hr/>
-        <ul class="unstyled">
-            <li class="done-"><label class="checkbox"><input type="checkbox" /> Some check item <a href="" class="btn btn-mini"><i class="icon icon-edit"></i></a></label></li>
-        </ul>
+ 
     </div>
 </div>
+
+@section tailScripts
+{
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.1/angular.min.js"></script>
+    <script src="~/Scripts/app/controllers/TodoController.js"></script>
+}

@@ -1,6 +1,8 @@
 ﻿namespace SampleTodo.Web.Controllers
 {
+    using System.Collections.Generic;
     using System.Web.Http;
+    using SampleTodo.Domain;
     using SampleTodo.Repository;
 
     /// <summary>
@@ -20,6 +22,24 @@
         public TodosController(ITodoRepository todoRepository)
         {
             this.todoRepository = todoRepository;
+        }
+
+        /// <summary>
+        /// Gets this instance.
+        /// </summary>
+        /// <returns>An <see cref="IEnumerable{T}"/> of <see cref="Todo"/> objects</returns>
+        public IEnumerable<Todo> Get()
+        {
+            return this.todoRepository.All();
+        }
+
+        /// <summary>
+        /// Posts the specified task.
+        /// </summary>
+        /// <param name="todo"></param>
+        public void Post(Todo todo)
+        {
+            this.todoRepository.Attach(todo);
         }
     }
 }

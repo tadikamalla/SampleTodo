@@ -175,9 +175,23 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\site.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
+    <Content Include="Content\site.min.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <None Include="Content\bootstrap-lib.css.bundle" />
+    <Content Include="Scripts\app\controllers\TodoController.coffee" />
+    <Content Include="Content\site.less" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\app\controllers\TodoController.js">
+      <DependentUpon>TodoController.coffee</DependentUpon>
+    </Content>
+    <Content Include="Scripts\app\controllers\TodoController.min.js">
+      <DependentUpon>TodoController.coffee</DependentUpon>
+    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />

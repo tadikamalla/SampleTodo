@@ -1,16 +1,18 @@
 ﻿<!DOCTYPE html>
 
-<html>
+<html ng-app>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Todos</title>
-    <link type="text/css" href="~/Content/bootstrap-lib.min.css" rel="stylesheet"/>
+    <link type="text/css" href="~/Content/bootstrap-lib.css" rel="stylesheet"/>
+    <link type="text/css" href="~/Content/site.css" rel="stylesheet"/>
 </head>
     <body>
         <div class="container">
             @RenderBody()
         </div>
 
-        <script src="~/Scripts/lib.min.js"></script>
+        <script src="~/Scripts/lib.js"></script>
+        @RenderSection("tailScripts", false)
     </body>
 </html>
