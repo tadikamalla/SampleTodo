@@ -1,6 +1,5 @@
 ﻿namespace SampleTodo.Web.Controllers
 {
-    using System.Collections.Generic;
     using System.Web.Http;
     using SampleTodo.Repository;
 
@@ -21,40 +20,6 @@
         public TodosController(ITodoRepository todoRepository)
         {
             this.todoRepository = todoRepository;
-        }
-
-        /// <summary>
-        /// Gets this instance.
-        /// </summary>
-        /// <returns>An <see cref="IEnumerable{T}"/> of <see cref="System.String"/></returns>
-        public IEnumerable<string> Get()
-        {
-            return new[] { "value1", "value2" };
-        }
-
-        /// <summary>
-        /// Posts the specified value.
-        /// </summary>
-        /// <param name="value">The value.</param>
-        public void Post([FromBody]string value)
-        {
-        }
-
-        /// <summary>
-        /// Puts the specified id.
-        /// </summary>
-        /// <param name="id">The id.</param>
-        /// <param name="value">The value.</param>
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        /// <summary>
-        /// Deletes the specified id.
-        /// </summary>
-        /// <param name="id">The id.</param>
-        public void Delete(int id)
-        {
         }
     }
 }
