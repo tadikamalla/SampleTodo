@@ -47,8 +47,6 @@ namespace SampleTodo.Web.App_Start
                 .BuildSessionFactory();
             
             SessionSource.SetFactory(factory);
-
-            
         }
     }
 }
