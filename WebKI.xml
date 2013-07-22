@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="All method">
+    <HelpKINode Title="ITodoRepository.All Method " Url="html/d23cba50-a50a-d38b-f25f-16653a2bd98d.htm" />
+    <HelpKINode Title="TodoRepository.All Method " Url="html/1af02ede-68e6-1aab-168b-115570cc51a9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Application_Start method" Url="html/86bc24d9-f832-6732-4711-aaa5b6eccc15.htm" />
+  <HelpKINode Title="Attach method">
+    <HelpKINode Title="ITodoRepository.Attach Method " Url="html/37149e12-0524-b5ba-1167-35b065521d4c.htm" />
+    <HelpKINode Title="TodoRepository.Attach Method " Url="html/9328c65c-9510-1391-b8cc-42acc061d3fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BeginScope method" Url="html/0f311252-ab8e-e867-e922-b8379dc0678a.htm" />
+  <HelpKINode Title="Detach method">
+    <HelpKINode Title="ITodoRepository.Detach Method " Url="html/28c7810f-0300-f399-16f0-2f455593acce.htm" />
+    <HelpKINode Title="TodoRepository.Detach Method " Url="html/6605328c-c9f6-5935-7828-ef593b5e83b8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dispose method" Url="html/189dc1f0-6222-c360-f547-5712b1789730.htm" />
+  <HelpKINode Title="EndContextSession method" Url="html/1d458b8a-c940-0516-9ed5-23e798f67240.htm" />
+  <HelpKINode Title="FilterConfig class">
+    <HelpKINode Title="FilterConfig Class" Url="html/359eca6e-c3dd-38ed-9084-3dcbd77af6cd.htm" />
+    <HelpKINode Title="FilterConfig Members" Url="html/9693e75d-6360-0244-a4ea-b0c9da63a809.htm" />
+    <HelpKINode Title="about FilterConfig class" Url="html/359eca6e-c3dd-38ed-9084-3dcbd77af6cd.htm" />
+    <HelpKINode Title="all members" Url="html/9693e75d-6360-0244-a4ea-b0c9da63a809.htm" />
+    <HelpKINode Title="constructor" Url="html/a14f5ec3-a7e3-d31b-b99b-c3b062ee7439.htm" />
+    <HelpKINode Title="methods" Url="html/ed90a698-7516-0d8f-8a52-064cd0f1ecb2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FilterConfig.FilterConfig constructor" Url="html/a14f5ec3-a7e3-d31b-b99b-c3b062ee7439.htm" />
+  <HelpKINode Title="FilterConfig.RegisterGlobalFilters method" Url="html/48644639-8462-d573-6ab6-74f769d08393.htm" />
+  <HelpKINode Title="GetService method" Url="html/ca30e61f-9638-1f1a-232f-1191fd96da23.htm" />
+  <HelpKINode Title="GetServices method" Url="html/f8b2d4a1-7336-40b9-0aa8-16ad93275671.htm" />
+  <HelpKINode Title="GetSession method" Url="html/3841c299-1275-c230-65aa-04febf9c5a87.htm" />
+  <HelpKINode Title="HomeController class">
+    <HelpKINode Title="HomeController Class" Url="html/51155be6-5a25-955c-4e3f-1f9f09633822.htm" />
+    <HelpKINode Title="HomeController Members" Url="html/65664e8d-9436-8572-68cd-b4071f11fa76.htm" />
+    <HelpKINode Title="about HomeController class" Url="html/51155be6-5a25-955c-4e3f-1f9f09633822.htm" />
+    <HelpKINode Title="all members" Url="html/65664e8d-9436-8572-68cd-b4071f11fa76.htm" />
+    <HelpKINode Title="constructor" Url="html/948aa129-8748-e46d-bd29-2049426f85b0.htm" />
+    <HelpKINode Title="methods" Url="html/a75fb05f-fa8a-9f10-de73-79f993594cff.htm" />
+    <HelpKINode Title="properties" Url="html/b379bf79-b3a5-ae5f-1cc9-20bca3fadd47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HomeController.HomeController constructor" Url="html/948aa129-8748-e46d-bd29-2049426f85b0.htm" />
+  <HelpKINode Title="HomeController.Index method" Url="html/c7601e0f-f0d0-a653-ad50-4bcffec3a6f4.htm" />
+  <HelpKINode Title="Id property" Url="html/fdb3bbe1-e2f8-fca2-1522-8351208bcca4.htm" />
+  <HelpKINode Title="Index method" Url="html/c7601e0f-f0d0-a653-ad50-4bcffec3a6f4.htm" />
+  <HelpKINode Title="IsComplete property" Url="html/184c1ea0-720b-7974-530c-af851125a8dd.htm" />
+  <HelpKINode Title="ITodoRepository interface">
+    <HelpKINode Title="ITodoRepository Interface" Url="html/018419e4-879a-05fb-7640-89a31d968585.htm" />
+    <HelpKINode Title="ITodoRepository Members" Url="html/b73939fe-f5be-1ded-1bb7-83c33615b965.htm" />
+    <HelpKINode Title="about ITodoRepository interface" Url="html/018419e4-879a-05fb-7640-89a31d968585.htm" />
+    <HelpKINode Title="all members" Url="html/b73939fe-f5be-1ded-1bb7-83c33615b965.htm" />
+    <HelpKINode Title="methods" Url="html/4d79d68e-ab52-10a0-bfb7-612240dd1303.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITodoRepository.All method" Url="html/d23cba50-a50a-d38b-f25f-16653a2bd98d.htm" />
+  <HelpKINode Title="ITodoRepository.Attach method" Url="html/37149e12-0524-b5ba-1167-35b065521d4c.htm" />
+  <HelpKINode Title="ITodoRepository.Detach method" Url="html/28c7810f-0300-f399-16f0-2f455593acce.htm" />
+  <HelpKINode Title="MvcApplication class">
+    <HelpKINode Title="MvcApplication Class" Url="html/7c7103fb-1371-0048-f846-936c78917415.htm" />
+    <HelpKINode Title="MvcApplication Members" Url="html/24741d4d-29b9-66e1-52f7-f023e069be09.htm" />
+    <HelpKINode Title="about MvcApplication class" Url="html/7c7103fb-1371-0048-f846-936c78917415.htm" />
+    <HelpKINode Title="all members" Url="html/24741d4d-29b9-66e1-52f7-f023e069be09.htm" />
+    <HelpKINode Title="constructor" Url="html/27b17a45-79aa-0207-82fb-6ced7c68e2f9.htm" />
+    <HelpKINode Title="events" Url="html/68d6f084-47e8-4368-881e-4c890d679feb.htm" />
+    <HelpKINode Title="methods" Url="html/bd8fd591-2d18-8243-e945-07d933ddfbd7.htm" />
+    <HelpKINode Title="properties" Url="html/ef3d8ab8-4803-6cb4-3c31-b50cac23e191.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MvcApplication.Application_Start method" Url="html/86bc24d9-f832-6732-4711-aaa5b6eccc15.htm" />
+  <HelpKINode Title="MvcApplication.MvcApplication constructor" Url="html/27b17a45-79aa-0207-82fb-6ced7c68e2f9.htm" />
+  <HelpKINode Title="NHibernateConfig class">
+    <HelpKINode Title="NHibernateConfig Class" Url="html/42ff0b87-1052-66b2-5592-0576649e3a37.htm" />
+    <HelpKINode Title="NHibernateConfig Members" Url="html/81516a94-3035-27fc-b84b-85196c413ac1.htm" />
+    <HelpKINode Title="about NHibernateConfig class" Url="html/42ff0b87-1052-66b2-5592-0576649e3a37.htm" />
+    <HelpKINode Title="all members" Url="html/81516a94-3035-27fc-b84b-85196c413ac1.htm" />
+    <HelpKINode Title="methods" Url="html/0ba06289-c2ef-ab25-0526-4d4338f321d9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NHibernateConfig.Start method" Url="html/40b5be8a-f9f8-048a-0839-6186aa94d7fd.htm" />
+  <HelpKINode Title="NHibernateSessionAttribute class">
+    <HelpKINode Title="NHibernateSessionAttribute Class" Url="html/f619f7dc-2313-1bcb-108c-3d0dd6559880.htm" />
+    <HelpKINode Title="NHibernateSessionAttribute Members" Url="html/c3e9e5ff-e5ca-11ba-dc3e-108eb20b09ec.htm" />
+    <HelpKINode Title="about NHibernateSessionAttribute class" Url="html/f619f7dc-2313-1bcb-108c-3d0dd6559880.htm" />
+    <HelpKINode Title="all members" Url="html/c3e9e5ff-e5ca-11ba-dc3e-108eb20b09ec.htm" />
+    <HelpKINode Title="constructor" Url="html/62d1ad10-fd7c-33bb-576c-e3b69ae4602f.htm" />
+    <HelpKINode Title="methods" Url="html/476b2c2a-e928-8e06-2dff-c218ef0249e2.htm" />
+    <HelpKINode Title="properties" Url="html/8c199ca4-7e11-85f7-745d-1f5f8e4e4fc6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NHibernateSessionAttribute.NHibernateSessionAttribute constructor" Url="html/62d1ad10-fd7c-33bb-576c-e3b69ae4602f.htm" />
+  <HelpKINode Title="NHibernateSessionAttribute.OnResultExecuted method" Url="html/757b95eb-ea69-f5e9-64f0-13c5c67284de.htm" />
+  <HelpKINode Title="NinjectResolver class">
+    <HelpKINode Title="NinjectResolver Class" Url="html/008455c4-9cd0-cdf0-9ebf-f6e580f6e512.htm" />
+    <HelpKINode Title="NinjectResolver Members" Url="html/28e4f94e-89da-1773-b1b1-2be15eb5b3af.htm" />
+    <HelpKINode Title="about NinjectResolver class" Url="html/008455c4-9cd0-cdf0-9ebf-f6e580f6e512.htm" />
+    <HelpKINode Title="all members" Url="html/28e4f94e-89da-1773-b1b1-2be15eb5b3af.htm" />
+    <HelpKINode Title="constructor" Url="html/7b28938d-edd8-a95a-ad90-9f84007000c1.htm" />
+    <HelpKINode Title="methods" Url="html/6d4c900e-3b66-5acb-2c97-70e405c187e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NinjectResolver.BeginScope method" Url="html/0f311252-ab8e-e867-e922-b8379dc0678a.htm" />
+  <HelpKINode Title="NinjectResolver.NinjectResolver constructor" Url="html/7b28938d-edd8-a95a-ad90-9f84007000c1.htm" />
+  <HelpKINode Title="NinjectScope class">
+    <HelpKINode Title="NinjectScope Class" Url="html/42c1b65f-9bd3-f332-4d15-953e5ee3f4de.htm" />
+    <HelpKINode Title="NinjectScope Members" Url="html/5e74797a-d868-fe6e-1d51-0402e3258f24.htm" />
+    <HelpKINode Title="about NinjectScope class" Url="html/42c1b65f-9bd3-f332-4d15-953e5ee3f4de.htm" />
+    <HelpKINode Title="all members" Url="html/5e74797a-d868-fe6e-1d51-0402e3258f24.htm" />
+    <HelpKINode Title="constructor" Url="html/e0436a73-6184-c92a-a279-546764f9f86f.htm" />
+    <HelpKINode Title="methods" Url="html/f9f44e31-b027-5617-d684-bbea5cf3e4bc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NinjectScope.Dispose method" Url="html/189dc1f0-6222-c360-f547-5712b1789730.htm" />
+  <HelpKINode Title="NinjectScope.GetService method" Url="html/ca30e61f-9638-1f1a-232f-1191fd96da23.htm" />
+  <HelpKINode Title="NinjectScope.GetServices method" Url="html/f8b2d4a1-7336-40b9-0aa8-16ad93275671.htm" />
+  <HelpKINode Title="NinjectScope.NinjectScope constructor" Url="html/e0436a73-6184-c92a-a279-546764f9f86f.htm" />
+  <HelpKINode Title="NinjectWebCommon class">
+    <HelpKINode Title="NinjectWebCommon Class" Url="html/f298e6a2-c763-9d17-4665-46ae1bf524b5.htm" />
+    <HelpKINode Title="NinjectWebCommon Members" Url="html/5cee604d-1321-8c5e-2fd1-12f188b713ec.htm" />
+    <HelpKINode Title="about NinjectWebCommon class" Url="html/f298e6a2-c763-9d17-4665-46ae1bf524b5.htm" />
+    <HelpKINode Title="all members" Url="html/5cee604d-1321-8c5e-2fd1-12f188b713ec.htm" />
+    <HelpKINode Title="methods" Url="html/44ee8396-9092-b963-5d49-ec39c19cb87c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NinjectWebCommon.Start method" Url="html/470394a5-9815-4442-592a-29bd8eec3916.htm" />
+  <HelpKINode Title="NinjectWebCommon.Stop method" Url="html/cb189623-b118-4f45-e303-93e32fdce902.htm" />
+  <HelpKINode Title="OnResultExecuted method" Url="html/757b95eb-ea69-f5e9-64f0-13c5c67284de.htm" />
+  <HelpKINode Title="Register method" Url="html/bf66d413-26f6-3118-0f3e-82d92c5e2aaa.htm" />
+  <HelpKINode Title="RegisterGlobalFilters method" Url="html/48644639-8462-d573-6ab6-74f769d08393.htm" />
+  <HelpKINode Title="RegisterRoutes method" Url="html/e9942890-8e99-994d-3f36-43316401e286.htm" />
+  <HelpKINode Title="RouteConfig class">
+    <HelpKINode Title="RouteConfig Class" Url="html/8adc11c2-2857-49d4-866f-753203ee3b9b.htm" />
+    <HelpKINode Title="RouteConfig Members" Url="html/f7ef2ad2-eeb7-552c-5823-ea8300881b47.htm" />
+    <HelpKINode Title="about RouteConfig class" Url="html/8adc11c2-2857-49d4-866f-753203ee3b9b.htm" />
+    <HelpKINode Title="all members" Url="html/f7ef2ad2-eeb7-552c-5823-ea8300881b47.htm" />
+    <HelpKINode Title="constructor" Url="html/f91545a2-5e2a-7cb7-b223-7e1769e1b8c2.htm" />
+    <HelpKINode Title="methods" Url="html/995337c9-c517-b021-4ce4-103cb089a545.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RouteConfig.RegisterRoutes method" Url="html/e9942890-8e99-994d-3f36-43316401e286.htm" />
+  <HelpKINode Title="RouteConfig.RouteConfig constructor" Url="html/f91545a2-5e2a-7cb7-b223-7e1769e1b8c2.htm" />
+  <HelpKINode Title="SampleTodo.Domain namespace" Url="html/8718317a-6bff-ae34-f66d-685bf790c81b.htm" />
+  <HelpKINode Title="SampleTodo.Domain.Todo class">
+    <HelpKINode Title="Todo Class" Url="html/8d7758d7-e535-06b1-949e-fb6af02be74a.htm" />
+    <HelpKINode Title="Todo Members" Url="html/fce2aa75-9f4f-35d6-1e91-093a3fb99996.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Mapping namespace" Url="html/91eaaa56-d16a-d897-9ad0-c1403f473173.htm" />
+  <HelpKINode Title="SampleTodo.Mapping.TodoMap class">
+    <HelpKINode Title="TodoMap Class" Url="html/b4e37372-5b4e-ad63-a463-048f538775e0.htm" />
+    <HelpKINode Title="TodoMap Members" Url="html/d369b36b-f0ca-7065-02b6-8d587670bbb3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Repository namespace" Url="html/2f0e85c3-8255-59d1-66a2-139a2ed635bb.htm" />
+  <HelpKINode Title="SampleTodo.Repository.ITodoRepository interface">
+    <HelpKINode Title="ITodoRepository Interface" Url="html/018419e4-879a-05fb-7640-89a31d968585.htm" />
+    <HelpKINode Title="ITodoRepository Members" Url="html/b73939fe-f5be-1ded-1bb7-83c33615b965.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Repository.SessionSource class">
+    <HelpKINode Title="SessionSource Class" Url="html/ba184247-fd99-2941-7de0-a7bc392d7c17.htm" />
+    <HelpKINode Title="SessionSource Members" Url="html/99fe65b4-38fb-1bd6-bebe-2ac809d619f2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Repository.TodoRepository class">
+    <HelpKINode Title="TodoRepository Class" Url="html/f5393464-6e4f-75de-632b-22dcecaf95e1.htm" />
+    <HelpKINode Title="TodoRepository Members" Url="html/b8187805-255a-4196-db4b-37a009cf916a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web namespace" Url="html/b2d83887-141c-3570-4d0e-208d4844eede.htm" />
+  <HelpKINode Title="SampleTodo.Web.App_Start namespace" Url="html/12f75332-6390-db50-75c8-ee90f25b212e.htm" />
+  <HelpKINode Title="SampleTodo.Web.App_Start.FilterConfig class">
+    <HelpKINode Title="FilterConfig Class" Url="html/359eca6e-c3dd-38ed-9084-3dcbd77af6cd.htm" />
+    <HelpKINode Title="FilterConfig Members" Url="html/9693e75d-6360-0244-a4ea-b0c9da63a809.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.App_Start.NHibernateConfig class">
+    <HelpKINode Title="NHibernateConfig Class" Url="html/42ff0b87-1052-66b2-5592-0576649e3a37.htm" />
+    <HelpKINode Title="NHibernateConfig Members" Url="html/81516a94-3035-27fc-b84b-85196c413ac1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.App_Start.NinjectWebCommon class">
+    <HelpKINode Title="NinjectWebCommon Class" Url="html/f298e6a2-c763-9d17-4665-46ae1bf524b5.htm" />
+    <HelpKINode Title="NinjectWebCommon Members" Url="html/5cee604d-1321-8c5e-2fd1-12f188b713ec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.App_Start.RouteConfig class">
+    <HelpKINode Title="RouteConfig Class" Url="html/8adc11c2-2857-49d4-866f-753203ee3b9b.htm" />
+    <HelpKINode Title="RouteConfig Members" Url="html/f7ef2ad2-eeb7-552c-5823-ea8300881b47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.App_Start.WebApiConfig class">
+    <HelpKINode Title="WebApiConfig Class" Url="html/fca05430-a672-3819-d001-13da786cc0f1.htm" />
+    <HelpKINode Title="WebApiConfig Members" Url="html/d497d77e-75f3-d6a6-b353-e451647221e9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.Controllers namespace" Url="html/96ebb752-ff46-5162-621b-33d0f267ed46.htm" />
+  <HelpKINode Title="SampleTodo.Web.Controllers.HomeController class">
+    <HelpKINode Title="HomeController Class" Url="html/51155be6-5a25-955c-4e3f-1f9f09633822.htm" />
+    <HelpKINode Title="HomeController Members" Url="html/65664e8d-9436-8572-68cd-b4071f11fa76.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.Controllers.TodosController class">
+    <HelpKINode Title="TodosController Class" Url="html/f5b630a3-a8ed-4f0e-7482-c826126dc128.htm" />
+    <HelpKINode Title="TodosController Members" Url="html/f9682d47-5919-3341-3998-f8c8fed176d5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.Filters namespace" Url="html/2ca092a9-5f64-c5a7-e000-8f823db021e9.htm" />
+  <HelpKINode Title="SampleTodo.Web.Filters.NHibernateSessionAttribute class">
+    <HelpKINode Title="NHibernateSessionAttribute Class" Url="html/f619f7dc-2313-1bcb-108c-3d0dd6559880.htm" />
+    <HelpKINode Title="NHibernateSessionAttribute Members" Url="html/c3e9e5ff-e5ca-11ba-dc3e-108eb20b09ec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.MvcApplication class">
+    <HelpKINode Title="MvcApplication Class" Url="html/7c7103fb-1371-0048-f846-936c78917415.htm" />
+    <HelpKINode Title="MvcApplication Members" Url="html/24741d4d-29b9-66e1-52f7-f023e069be09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.Resolvers namespace" Url="html/4a7ef4a2-c76d-ff5b-2a42-0aa6ad064aec.htm" />
+  <HelpKINode Title="SampleTodo.Web.Resolvers.NinjectResolver class">
+    <HelpKINode Title="NinjectResolver Class" Url="html/008455c4-9cd0-cdf0-9ebf-f6e580f6e512.htm" />
+    <HelpKINode Title="NinjectResolver Members" Url="html/28e4f94e-89da-1773-b1b1-2be15eb5b3af.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SampleTodo.Web.Resolvers.NinjectScope class">
+    <HelpKINode Title="NinjectScope Class" Url="html/42c1b65f-9bd3-f332-4d15-953e5ee3f4de.htm" />
+    <HelpKINode Title="NinjectScope Members" Url="html/5e74797a-d868-fe6e-1d51-0402e3258f24.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionSource class">
+    <HelpKINode Title="SessionSource Class" Url="html/ba184247-fd99-2941-7de0-a7bc392d7c17.htm" />
+    <HelpKINode Title="SessionSource Members" Url="html/99fe65b4-38fb-1bd6-bebe-2ac809d619f2.htm" />
+    <HelpKINode Title="about SessionSource class" Url="html/ba184247-fd99-2941-7de0-a7bc392d7c17.htm" />
+    <HelpKINode Title="all members" Url="html/99fe65b4-38fb-1bd6-bebe-2ac809d619f2.htm" />
+    <HelpKINode Title="methods" Url="html/737eae66-eddd-4e81-f1b4-c36a721f7b5e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SessionSource.EndContextSession method" Url="html/1d458b8a-c940-0516-9ed5-23e798f67240.htm" />
+  <HelpKINode Title="SessionSource.GetSession method" Url="html/3841c299-1275-c230-65aa-04febf9c5a87.htm" />
+  <HelpKINode Title="SessionSource.SetFactory method" Url="html/f8aeb6aa-d1da-54f3-5a62-8484cccbff90.htm" />
+  <HelpKINode Title="SetFactory method" Url="html/f8aeb6aa-d1da-54f3-5a62-8484cccbff90.htm" />
+  <HelpKINode Title="Start method">
+    <HelpKINode Title="NHibernateConfig.Start Method " Url="html/40b5be8a-f9f8-048a-0839-6186aa94d7fd.htm" />
+    <HelpKINode Title="NinjectWebCommon.Start Method " Url="html/470394a5-9815-4442-592a-29bd8eec3916.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stop method" Url="html/cb189623-b118-4f45-e303-93e32fdce902.htm" />
+  <HelpKINode Title="Task property" Url="html/414411d8-314d-908e-a17a-a12d530bf573.htm" />
+  <HelpKINode Title="Todo class">
+    <HelpKINode Title="Todo Class" Url="html/8d7758d7-e535-06b1-949e-fb6af02be74a.htm" />
+    <HelpKINode Title="Todo Members" Url="html/fce2aa75-9f4f-35d6-1e91-093a3fb99996.htm" />
+    <HelpKINode Title="about Todo class" Url="html/8d7758d7-e535-06b1-949e-fb6af02be74a.htm" />
+    <HelpKINode Title="all members" Url="html/fce2aa75-9f4f-35d6-1e91-093a3fb99996.htm" />
+    <HelpKINode Title="constructor" Url="html/0140797a-f2bc-1154-4627-7914b2b17e65.htm" />
+    <HelpKINode Title="methods" Url="html/f0c3bf88-5058-0542-24c4-f58397265cd3.htm" />
+    <HelpKINode Title="properties" Url="html/cc23eaea-de90-7f6c-9d2d-a9350234b3f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Todo.Id property" Url="html/fdb3bbe1-e2f8-fca2-1522-8351208bcca4.htm" />
+  <HelpKINode Title="Todo.IsComplete property" Url="html/184c1ea0-720b-7974-530c-af851125a8dd.htm" />
+  <HelpKINode Title="Todo.Task property" Url="html/414411d8-314d-908e-a17a-a12d530bf573.htm" />
+  <HelpKINode Title="Todo.Todo constructor" Url="html/0140797a-f2bc-1154-4627-7914b2b17e65.htm" />
+  <HelpKINode Title="TodoMap class">
+    <HelpKINode Title="TodoMap Class" Url="html/b4e37372-5b4e-ad63-a463-048f538775e0.htm" />
+    <HelpKINode Title="TodoMap Members" Url="html/d369b36b-f0ca-7065-02b6-8d587670bbb3.htm" />
+    <HelpKINode Title="about TodoMap class" Url="html/b4e37372-5b4e-ad63-a463-048f538775e0.htm" />
+    <HelpKINode Title="all members" Url="html/d369b36b-f0ca-7065-02b6-8d587670bbb3.htm" />
+    <HelpKINode Title="constructor" Url="html/ae4aaf23-123b-76e8-297f-7bd58c21cb65.htm" />
+    <HelpKINode Title="fields" Url="html/31f6c88e-6073-94d6-e73d-91ca0d57b5e3.htm" />
+    <HelpKINode Title="methods" Url="html/9e442737-874d-57d0-4fac-99343c82ebb2.htm" />
+    <HelpKINode Title="properties" Url="html/8a3fc6ea-91f1-64d2-da61-285a6e2eff94.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TodoMap.TodoMap constructor" Url="html/ae4aaf23-123b-76e8-297f-7bd58c21cb65.htm" />
+  <HelpKINode Title="TodoRepository class">
+    <HelpKINode Title="TodoRepository Class" Url="html/f5393464-6e4f-75de-632b-22dcecaf95e1.htm" />
+    <HelpKINode Title="TodoRepository Members" Url="html/b8187805-255a-4196-db4b-37a009cf916a.htm" />
+    <HelpKINode Title="about TodoRepository class" Url="html/f5393464-6e4f-75de-632b-22dcecaf95e1.htm" />
+    <HelpKINode Title="all members" Url="html/b8187805-255a-4196-db4b-37a009cf916a.htm" />
+    <HelpKINode Title="constructor" Url="html/0c2ffdeb-3b0b-1809-c133-b463d9701ca1.htm" />
+    <HelpKINode Title="methods" Url="html/6cdd3e62-993e-4732-5513-f2ffce71bbec.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TodoRepository.All method" Url="html/1af02ede-68e6-1aab-168b-115570cc51a9.htm" />
+  <HelpKINode Title="TodoRepository.Attach method" Url="html/9328c65c-9510-1391-b8cc-42acc061d3fc.htm" />
+  <HelpKINode Title="TodoRepository.Detach method" Url="html/6605328c-c9f6-5935-7828-ef593b5e83b8.htm" />
+  <HelpKINode Title="TodoRepository.TodoRepository constructor" Url="html/0c2ffdeb-3b0b-1809-c133-b463d9701ca1.htm" />
+  <HelpKINode Title="TodosController class">
+    <HelpKINode Title="TodosController Class" Url="html/f5b630a3-a8ed-4f0e-7482-c826126dc128.htm" />
+    <HelpKINode Title="TodosController Members" Url="html/f9682d47-5919-3341-3998-f8c8fed176d5.htm" />
+    <HelpKINode Title="about TodosController class" Url="html/f5b630a3-a8ed-4f0e-7482-c826126dc128.htm" />
+    <HelpKINode Title="all members" Url="html/f9682d47-5919-3341-3998-f8c8fed176d5.htm" />
+    <HelpKINode Title="constructor" Url="html/54c6f1ed-3a0b-3807-400d-84b349d199c0.htm" />
+    <HelpKINode Title="methods" Url="html/111ab09a-abaf-ff2e-b6b4-880c3aed6ac6.htm" />
+    <HelpKINode Title="properties" Url="html/7b9c2b6f-4b9c-c3fe-2e3d-b14c2352977c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TodosController.TodosController constructor" Url="html/54c6f1ed-3a0b-3807-400d-84b349d199c0.htm" />
+  <HelpKINode Title="WebApiConfig class">
+    <HelpKINode Title="WebApiConfig Class" Url="html/fca05430-a672-3819-d001-13da786cc0f1.htm" />
+    <HelpKINode Title="WebApiConfig Members" Url="html/d497d77e-75f3-d6a6-b353-e451647221e9.htm" />
+    <HelpKINode Title="about WebApiConfig class" Url="html/fca05430-a672-3819-d001-13da786cc0f1.htm" />
+    <HelpKINode Title="all members" Url="html/d497d77e-75f3-d6a6-b353-e451647221e9.htm" />
+    <HelpKINode Title="methods" Url="html/1960ec01-16fd-6feb-dc16-89323e6aec79.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WebApiConfig.Register method" Url="html/bf66d413-26f6-3118-0f3e-82d92c5e2aaa.htm" />
+</HelpKI>
