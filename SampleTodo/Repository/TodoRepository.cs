@@ -1,8 +1,8 @@
 ﻿namespace SampleTodo.Repository
 {
+    using System.Collections.Generic;
     using System.Linq;
     using NHibernate.Linq;
-    using System.Collections.Generic;
     using SampleTodo.Domain;
 
     /// <summary>
@@ -18,7 +18,7 @@
         {
             using (var session = SessionSource.GetSession())
             {
-                using(var t = session.BeginTransaction())
+                using (var t = session.BeginTransaction())
                 {
                     session.SaveOrUpdate(todo);
                     t.Commit();
@@ -43,6 +43,7 @@
                     t.Commit();
                 }
             }
+
             return results;
         }
     }
