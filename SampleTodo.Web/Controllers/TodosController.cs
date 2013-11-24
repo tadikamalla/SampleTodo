@@ -1,7 +1,9 @@
-﻿namespace SampleTodo.Web.Controllers
+namespace SampleTodo.Web.Controllers
 {
     using System.Web.Http;
     using SampleTodo.Repository;
+    using SampleTodo.Domain;
+using System.Collections.Generic;
 
     /// <summary>
     /// The to-do API controller
@@ -20,6 +22,30 @@
         public TodosController(ITodoRepository todoRepository)
         {
             this.todoRepository = todoRepository;
+        }
+
+        /// <summary>
+        /// Get list of all todo tasks
+        /// </summary>
+        public IList<Todo> Get()
+        {
+            return todoRepository.All();
+        }
+
+        /// <summary>
+        /// add a new list to task
+        /// </summary>
+        public void Put(Todo data)
+        {
+            todoRepository.Attach(data);
+        }
+
+        /// <summary>
+        /// update the status
+        /// </summary>
+        public void Post(Todo data)
+        {
+            todoRepository.Attach(data);
         }
     }
 }
